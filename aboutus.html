@@ -1,0 +1,89 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>About Us</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img class="img"src="photos/coding.png" alt="Loading"></a>
+        
+        <div class="nav-links" id="navlinks">
+            <i class="fa " onclick="hidemenu()"><img src="photos/close.png" alt=""></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa " onclick="showmenu()"><img src="photos/menu.png" alt=""></i>
+    </nav>
+        <h1>About US</h1>
+    </section>
+
+
+
+
+   
+    <!-----------------About us---------------->
+    <section class="about">
+        <div class="row">
+            <div class="abt-col">
+                <h1>You Can Appy For <br> Jobs Here</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facilis ad! Nemo libero velit accusamus recusandae. Architecto, reiciendis saepe ab necessitatibus vero molestiae nostrum quos commodi numquam obcaecati adipisci ratione in suscipit ipsum sed cum amet nisi facere quis! Aperiam illo nesciunt deleniti atque provident, animi, !</p>
+                
+                <a href="job.html" class="btn red-btn">APPLY NOW</a>
+
+            
+
+            </div>
+            <div class="abt-col">
+                <img src="photos/sub.jpg" alt="">
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis unde aspernatur repellat. Praesentium delectus quam<br> accusamus, aliquid reiciendis fugit dolorem.</p>
+
+        <div class="icon">
+            <img src="photos/linkedin.png" alt="">
+            <img src="photos/whatsapp.png" alt="">
+            <img src="photos/mail.png" alt="">
+
+        </div>
+        <p>Made By Balaji</p>
+
+    </section>
+</body>
+</html>
+
+    <!---------------------javascript------------------>
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right='0';
+
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

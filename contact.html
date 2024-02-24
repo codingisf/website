@@ -1,0 +1,94 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img class="img"src="photos/coding.png" alt="Loading"></a>
+        
+        <div class="nav-links" id="navlinks">
+            <i class="fa " onclick="hidemenu()"><img src="photos/close.png" alt=""></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa " onclick="showmenu()"><img src="photos/menu.png" alt=""></i>
+    </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-----------------Call to Action-------------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15655.509779176571!2d79.58239583546417!3d11.196702473079513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54d9a72e5d7ac3%3A0x5300eea2c781919e!2sManalmedu%2C%20Tamil%20Nadu%20609202!5e0!3m2!1sen!2sin!4v1696050028529!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+<div class="cont-col">
+    <form action="mess.php" method="post">
+        <h3>Your Message</h3>
+        <label >Name</label><br>
+        <input type="text" placeholder="Name" name="name" required>
+        Enter Your Email
+        <input type="email"placeholder="example@gamil.com" name="email" required>
+        Enter Your Subject
+        <input type="text" placeholder="Enter Your Subject" name="subject" required>
+        Message About Your Subject 
+        <textarea rows="8"placeholder="Message" name="message" required></textarea>
+        <button type="submit" class="cont-btn btn">Send Message</button>
+
+    </form>
+</div>
+   
+    <!----------------footer---------------->
+        
+
+    
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis unde aspernatur repellat. Praesentium delectus quam<br> accusamus, aliquid reiciendis fugit dolorem.</p>
+
+        <div class="icon">
+            <img src="photos/linkedin.png" alt="">
+            <img src="photos/mail.png" alt="">
+            <img src="photos/whatsapp.png" alt="">
+
+
+        </div>
+        <p>Made By Balaji</p>
+
+    </section>
+</body>
+</html>
+
+    <!---------------------javascript------------------>
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right='0';
+
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

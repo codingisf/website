@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>courses</title>
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="#"><img class="img"src="photos/coding.png" alt="Loading"></a>
+        
+        <div class="nav-links" id="navlinks">
+            <i class="fa logo" onclick="hidemenu()"><img src="photos/close.png" alt="" ></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa " onclick="showmenu()"><img src="photos/menu.png" alt=""></i>
+    </nav>
+    <div class="textbox">
+        <h1>Company</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque obcaecati aperiam commodi minus minima et culpa cumque, perspiciatis ea voluptate iste exercitationem dicta? Sit, voluptatibus ipsa! Ullam facere nobis aut tempora, ratione</p>
+
+        <a href="#" class="btn">Visit Us To Known More</a>
+    </div>
+    </section>
+
+    <!--------------------course--------------------->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aut!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>website Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque delectus nostrum eveniet quam exercitationem minus neque eum debitis illo.</p>
+            </div>
+            <div class="course-col">
+                <h3>python</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque delectus nostrum eveniet quam exercitationem minus neque eum debitis illo.</p>
+            </div>
+            <div class="course-col">
+                <h3>Structured Query Language (sql)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque delectus nostrum eveniet quam exercitationem minus neque eum debitis illo.</p>
+            </div>
+           
+        </div>
+
+    </section>    
+
+    <!-----------------Mentors--------------------->
+
+    <section class="mentors">
+
+        <h1>Our Mentors</h1>
+        <div class="row">
+            <div class="col">
+                <img src="photos/photo.png" alt="">
+                <div class="layer">
+                    <h3>Arun Sankaran</h3>
+                </div>
+            </div>
+            <div class="col">
+                <img src="photos/photo.png" alt="">
+                <div class="layer">
+                    <h3>Karthiga Sankaran</h3>
+                </div>
+            </div>
+            <div class="col">
+                <img src="photos/photo.png" alt="">
+                <div class="layer">
+                    <h3>Balaji</h3>
+                </div>
+            </div>
+        </div>
+    
+         
+    </section>
+
+
+
+<!-------------------Our Sessions--------------------->
+
+    <section class="sessions">
+        <h1>Our Sessions</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, expedita.
+        </p>
+        <div class="row">
+            <div class="men-col">
+                <img src="photos/photo.png" alt="">
+                <h3>Live CLasses</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laudantium.</p>
+            </div>
+            <div class="men-col">
+                <img src="photos/photo.png" alt="">
+                <h3>Doubt Sessions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laudantium.</p>
+            </div>
+            <div class="men-col">
+                <img src="photos/photo.png" alt="">
+                <h3>Test Sessions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laudantium.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+<!-----------------Call to Action-------------------->
+<section class="cta">
+    <h1>Enroll For Works From  Everwhere<br> For Frontend Development And Backend Development</h1>
+
+    <a href="contact.html" class="btn">CONTACT US</a>
+
+</section>
+
+<!-------------------footer---------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis unde aspernatur repellat. Praesentium delectus quam<br> accusamus, aliquid reiciendis fugit dolorem.</p>
+
+        <div class="icon">
+            <img src="photos/linkedin.png" alt="">
+            <img src="photos/whatsapp.png" alt="">
+            <img src="photos/mail.png" alt="">
+
+        </div>
+        <p>Made By Balaji</p>
+
+    </section>
+
+
+
+
+    <!---------------------javascript------------------>
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right='0';
+
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
